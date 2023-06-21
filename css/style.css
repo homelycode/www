@@ -1,0 +1,44 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+:root {    
+    --background-color: #002B36;       
+    --foreground-color: #FDF6E3;  
+  }
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  color: var(--foreground-color);
+  background-color: var(--background-color);
+  height: 100%;
+  margin: 0;
+  padding: 0;  
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#logo {
+  margin: auto;
+  flex-grow: 2; 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;  
+}
+
+#contact {
+  margin: auto;
+  flex-grow: 1; 
+  display: flex;
+  flex-direction: column;    
+  align-items: center;
+}
+
+#footer {
+  margin: auto;
+  align-self: flex-end;
+  font-size: 0.8rem;
+}
+
+.deets {
+  padding-left: 5px;
+}
