@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 :root {    
@@ -6,7 +7,7 @@
   }
 
 body {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'EB Garamond', serif;
   color: var(--foreground-color);
   background-color: var(--background-color);
   height: 100%;
